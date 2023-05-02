@@ -1,2 +1,2 @@
 # Site-FeatherFarm
-repositório do site
+Site do projeto Feather Farm
