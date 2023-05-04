@@ -203,6 +203,10 @@ accent-color: #135E06;
     color: #135E06;
     font-weight: 950;
 }
+#social img{
+    width: auto;
+    height: auto;
+}
 #forgot{
     display: flex;
     justify-content: flex-end;

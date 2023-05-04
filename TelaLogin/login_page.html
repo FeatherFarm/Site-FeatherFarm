@@ -59,13 +59,13 @@
                     <div id="social">
                         <p>entrar com:</p>
                         <a href="#">
-                            <img src="./imagens/btn_google.png" alt="google">
+                            <img src="imagens/btn_google.jpg">
                         </a>
                         <a href="#">
-                            <img src="./imagens/btn_facebook.png" alt="facebook">
+                            <img src="imagens/btn_facebook.jpg">
                         </a>
                         <a href="#">
-                            <img src="./imagens/btn_linkedin.png" alt="linkedin">
+                            <img src="imagens/btn_linkedin.jpg">
                         </a>
 
 
@@ -97,6 +97,17 @@
     var email = input_email.value
     var senha = input_senha.value
     if(email == "featherfarm@gmail.com" && senha ==="Corinthians"){
+    swal({
+        
+  title: "Olá!",
+  text: "Seja bem-vindo!",
+  icon: "success",
+}).then(function() {
+            // redireciona para outra página
+            window.location.href = "../DashBoard/index.html";
+        });
+    }
+    if(email == "featherfarm@gmail.com" && senha ==="123"){
     swal({
         
   title: "Olá!",
