@@ -301,7 +301,7 @@
 
 
     function Validacao() {
-        var Empresa = input_razão_social.value;
+        var RazãoSocial = input_razão_social.value;
         var Cnpj = input_cnpj.value;
         var Nome_fantasia = input_nome_fantasia.value;
         var Senha = input_senha.value;
@@ -313,13 +313,13 @@
         var Cidade = input_cidade.value;
         var Nome = input_nome.value;
         var Sobrenome = input_sobrenome.value;
-        var Email = input_email.value;
-        var Email2 = input_email2.value;
+        var EmailCadastro = input_email.value;
+        var Email2Cadastro = input_email2.value;
         var Telefone = input_telefone.value;
         var Telefone2 = input_telefone2.value;
         
         
-        if (Empresa == false || Empresa.length < 2) {
+        if (RazãoSocial == false || RazãoSocial.length < 2) {
             alert("Parece que você preencheu algum campo incorretamente!")
         } else if (Cnpj == false || Cnpj.length < 18 ) {
             alert("Parece que você preencheu algum campo incorretamente!")
